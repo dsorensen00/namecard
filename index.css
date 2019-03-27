@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #edd8c6;
+    margin:0px;
+    padding: 5px;
+    font-family: 'Rubik', sans-serif;
+
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color:#242628;
+    padding: 10px;
+    border: solid;
+    border-color: black;
+    border-radius: 8px;
+    color: aliceblue;
+    margin: 10px;
+    text-align: center;
+
+    
+}
+
+#nameForm{
+    display: flex;
+}
+.nameInput{
+    display: flex;
+    align-self: center;
+    background-color:#bfbfbf;
+    height: 30px;
+    justify-content: space-around;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    width: auto;
+
+
+
+}
+.nameInput:focus{
+    outline: none;
+    font-weight: bold;
+}
+.button{
+    align-self: center;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 5px;
+    background-color: #07d6fa;
+    height: 30px;
+    
+
+}
+
+.button:hover{
+    background-color:#11c2e1;
+    color:aliceblue;
+}
+
+.nameIcon{
+    display:flex;
+    align-self: flex-start;
+    flex:1;
+}
+.badge{
+    display: flex;
+    justify-content: space-around;
+    border:none;
+    align-content: center;
+    width: 50%;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(230, 62, 62);
+    margin-top: 100px;
+
+    
+
+
+}
+.bottomBadge{
+    background-color: aliceblue;
+    padding:20px;
+    font-size: 30px
+
+}
+.topBadge{
+    color:aliceblue;
+    padding: 0px;
+    
+
+}
